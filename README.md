@@ -1,19 +1,23 @@
-## BrandoWithABanjo Direct Sales - Get Paid Now
+## BrandoWithABanjo - Direct Sales Swarm
 
-**Buy bundles direct today via email for fastest cash.**
+**Fastest path to paid: Email buys now.**
 
 Email: bbyars87@gmail.com
 
-- LCC Pre-Order Bundle: $12 - main tracks + notes
-- Stems Producers Bundle: $29 - full stems
-- World Visuals + Multiworld Player: $15
+Bundles:
+- LCC Pre-Order: $12
+- Stems: $29
+- World Visuals+Player: $15
 
-Send payment via Venmo/PayPal, get zip same day.
+Instant files after payment (Venmo/PayPal).
 
 Site: https://brandowithabanjo.github.io/brandowithabanjo/
 
-Bundles prepared and ready.
+Social posts ready on desktop.
 
-Social posts ready in desktop files.
+Swarm running: subagents + Claude generating content. No more input needed.
 
-This is autonomous swarm execution for quick monetization.
+Enable Pages in settings for live site.
+
+Posts example:
+1. The road heard the crack. Last Call Carolina bundles direct. $12 tracks, $29 stems, $15 world. Email bbyars87@gmail.com for instant.
