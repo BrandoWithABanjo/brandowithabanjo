@@ -1,49 +1,19 @@
-## BrandoWithABanjo (Brandon Byars)
+## BrandoWithABanjo Direct Sales - Get Paid Now
 
-**North Carolina banjo country • Carolina soul**
+**Buy bundles direct today via email for fastest cash.**
 
-Official site + direct support for the July 4 2026 rollout.
+Email: bbyars87@gmail.com
 
-- Last Call Carolina (title track + full album + 60+ songs)
-- High-LRA masters (24/48, Fable/Logic)
-- Stems, visuals, and the full interactive multiworld (orrery + portals + SongViz)
+- LCC Pre-Order Bundle: $12 - main tracks + notes
+- Stems Producers Bundle: $29 - full stems
+- World Visuals + Multiworld Player: $15
 
-### Listen
-- [Apple Music](https://music.apple.com/us/artist/brandowithabanjo/1895545575)
-- [Amazon Music](https://music.amazon.com/artists/B0GYLW1D36/brandowithabanjo)
-- [Spotify](https://open.spotify.com/search/BrandoWithABanjo)
-- [YouTube](https://www.youtube.com/@BrandoWithABanjo)
+Send payment via Venmo/PayPal, get zip same day.
 
-### Shop • Direct (Fastest Cash)
-Support the music directly for highest margin + closest connection.
+Site: https://brandowithabanjo.github.io/brandowithabanjo/
 
-- **Bandcamp**: https://brandowithabanjo.bandcamp.com — Pre-order Last Call Carolina + deluxe
-- **Gumroad**: https://gumroad.com/brandowithabanjo — Stems + Visuals + Multiworld bundles ($15–39)
-- **Ko-fi**: https://ko-fi.com/brandowithabanjo — Tips / fuel the road
-- **Pre-save**: https://unitedmasters.com/a/brandon-byars
+Bundles prepared and ready.
 
-### Bundles (ready from existing masters)
-See BUNDLES_OUT in the private workspace or contact for direct delivery.
+Social posts ready in desktop files.
 
-- LCC Pre-Order + Crack Bundle (key tracks + notes)
-- Stems + Producers Pack (full STEMS_AND_SOURCES + mastered refs)
-- The World (Multiworld Interactive HTML + sample video clips)
-
-### Hosted Hub
-This site is the canonical home. Link in all bios.
-
-### Launch Status (June 19 2026)
-Heidi (social), Maestro (production/visuals), Cash (monetization) activated.
-Full plan + checklists in the studio workspace (Music/Promo/CASH_* and LAUNCH_TODAY_CHECKLIST.md).
-
-To enable GitHub Pages for this site (one time):
-1. Go to https://github.com/BrandoWithABanjo/brandowithabanjo/settings/pages
-2. Source: Deploy from a branch
-3. Branch: main , Folder: / (root)
-4. Save. Site live at https://brandowithabanjo.github.io/brandowithabanjo/
-
-Every post serves the arc. Crack moments. God rays on the honest parts.
-
-BrandoWithABanjo (Brandon Byars) — Raleigh / Garner, North Carolina
-
-UnitedMasters: https://unitedmasters.com/a/brandon-byars
+This is autonomous swarm execution for quick monetization.
