@@ -3,36 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BrandoWithABanjo | Buy Bundles Direct Now</title>
-  <meta name="description" content="Buy music bundles direct from BrandoWithABanjo. Email for instant delivery.">
+  <title>BrandoWithABanjo (Brandon Byars) | Buy Bundles Direct — LCC Pre-Order $12, Stems $29, World $15</title>
+  <meta name="description" content="BrandoWithABanjo (Brandon Byars) — North Carolina banjo country, Carolina soul. Buy music bundles direct now for immediate delivery: LCC Pre-Order $12, Stems $29, The World Visuals $15. Email bbyars87@gmail.com. No middlemen. Support the music. July 4 Last Call Carolina rollout.">
+  <meta name="keywords" content="BrandoWithABanjo, Brandon Byars, Last Call Carolina, buy direct, stems, music bundles, banjo country, pre-order, direct sales, LCC bundle, Screen Glow">
   <style>
-    body { font-family: system-ui; margin: 40px; background: #111; color: #eee; }
-    .cta { background: #c9a46e; color: #111; padding: 20px; text-align: center; font-size: 1.5em; margin: 20px 0; border-radius: 8px; }
-    .bundle { margin: 10px 0; padding: 15px; background: #222; border-radius: 8px; }
-    a { color: #c9a46e; }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+    :root { --bg: #0a0a0a; --fg: #f5f5f5; --accent: #c9a46e; --accent-dark: #a07d4d; --card: #141414; --success: #4ade80; }
+    body { margin:0; font-family: 'Inter', system_ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+    .container { max-width: 820px; margin: 0 auto; padding: 20px 16px; }
+    h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 2.8rem; margin: 0 0 4px; letter-spacing: -1.5px; }
+    .tagline { font-size: 1.05rem; opacity: 0.85; margin-bottom: 24px; }
+    .section { margin-bottom: 42px; }
+    h2 { font-size: 1.35rem; margin: 0 0 12px; border-bottom: 2px solid #222; padding-bottom: 8px; }
+    .accent { color: var(--accent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .buy-grid { display: grid; gap: 16px; margin: 20px 0; }
+    .buy-card {
+      background: var(--card); border: 2px solid #222; border-radius: 12px; padding: 18px 20px;
+      transition: all 0.15s ease; position: relative; overflow: hidden;
+    }
+    .buy-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.4); }
+    .buy-card h3 { margin: 0 0 4px; font-size: 1.25rem; }
+    .price { font-size: 1.65rem; font-weight: 700; color: var(--success); margin: 2px 0 10px; letter-spacing: -0.5px; }
+    .bundle-details { font-size: 0.92rem; opacity: 0.9; margin: 8px 0; line-height: 1.45; }
+    .buy-btn {
+      display: inline-block; background: var(--accent); color: #111; font-weight: 700; font-size: 1.05rem;
+      padding: 14px 28px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer;
+      margin-top: 10px; width: 100%; text-align: center; box-sizing: border-box;
+      transition: all 0.1s;
+    }
+    .buy-btn:hover { background: #d4b37e; transform: scale(1.01); color: #000; text-decoration: none; }
+    .buy-btn.secondary { background: #222; color: var(--accent); border: 1px solid var(--accent); }
+    .buy-btn.secondary:hover { background: #333; }
+    .links { display: grid; gap: 10px; }
+    .link-btn {
+      display: block; background: #1a1a1a; padding: 13px 18px; border-radius: 8px; 
+      border: 1px solid #333; transition: all 0.2s; font-weight: 600; font-size: 0.98rem;
+    }
+    .link-btn:hover { background: #252525; border-color: var(--accent); }
+    .meta { font-size: 0.85rem; opacity: 0.7; margin-top: 32px; text-align: center; }
+    .voice { background: #1f1a12; padding: 14px; border-radius: 8px; border-left: 5px solid var(--accent); font-family: monospace; font-size: 0.95rem; }
+    .release { font-weight: 700; color: var(--accent); }
+    .hero { background: linear-gradient(180deg, #111 0%, #0a0a0a 100%); padding: 24px; border-radius: 16px; margin-bottom: 28px; border: 1px solid #222; text-align: center; }
+    .hero h2 { border: none; margin-bottom: 8px; }
+    .urgent { color: #f59e0b; font-weight: 600; font-size: 0.95rem; }
+    .details-list { margin: 8px 0; padding-left: 18px; font-size: 0.9rem; }
+    .details-list li { margin-bottom: 3px; }
+    .email-note { background: #1a140a; border: 1px solid #3a2f1f; padding: 12px 16px; border-radius: 8px; font-size: 0.92rem; margin: 16px 0; }
+    .top-bar { background: #111; padding: 8px 16px; text-align: center; font-size: 0.8rem; opacity: 0.85; letter-spacing: 0.5px; }
   </style>
 </head>
 <body>
-  <h1>BrandoWithABanjo</h1>
-  <p>Brandon Byars | North Carolina banjo country</p>
-  
-  <div class="cta">
-    <strong>BUY DIRECT NOW - EMAIL FOR INSTANT FILES</strong><br>
-    bbyars87@gmail.com<br>
-    LCC Pre-Order $12 | Stems $29 | World $15
+  <div class="top-bar">DIRECT SALES — NO STOREFRONT • EMAIL bbyars87@gmail.com FOR INSTANT DELIVERY • VENMO / PAYPAL</div>
+
+  <div class="container">
+    <header style="text-align:center; margin-bottom: 8px;">
+      <h1>BrandoWithABanjo</h1>
+      <p class="tagline">Brandon Byars • North Carolina banjo country • Carolina soul<br><span class="accent">Last Call Carolina — July 4, 2026</span></p>
+    </header>
+
+    <!-- PROMINENT BUY SECTION - OPTIMIZED FOR IMMEDIATE REVENUE -->
+    <div class="hero">
+      <h2 style="font-size:1.55rem;">BUY BUNDLES DIRECT NOW</h2>
+      <p class="urgent">High-LRA masters • Full stems • Cinematic visuals + interactive player. Same-day ZIP delivery via email after payment.</p>
+      <p style="margin:8px 0 0; font-size:0.9rem; opacity:0.8;">Pre-order supports 60+ song rollout. Every dollar goes straight to the music.</p>
+
+      <div class="buy-grid">
+        <!-- Bundle 1: LCC Pre-Order $12 -->
+        <div class="buy-card">
+          <h3 class="accent">LCC Pre-Order Bundle</h3>
+          <div class="price">$12</div>
+          <div class="bundle-details">
+            <strong>24/48 WAV masters + crack moments + notes.</strong><br>
+            <ul class="details-list">
+              <li>Last Call Carolina (final mastered, ~9.1 LRA voice crack at 88.5s)</li>
+              <li>Screen Glow companion master (night repair texture)</li>
+              <li>3-5 timestamped high-LRA clips (crack + sacred moments)</li>
+              <li>LRA/arc production notes + carried thread story</li>
+              <li>Early access note to Multiworld Interactive Experience</li>
+            </ul>
+          </div>
+          <a class="buy-btn" href="mailto:bbyars87@gmail.com?subject=Buy%20LCC%20Pre-Order%20Bundle%20%2412&amp;body=Hi%20Brandon%2C%0A%0APlease%20send%20LCC%20Pre-Order%20%2412%20bundle.%0AVenmo%20or%20PayPal%20ready.%0A%0AThanks%2C%0A%5BYour%20Name%5D">BUY LCC PRE-ORDER — $12 → EMAIL NOW</a>
+        </div>
+
+        <!-- Bundle 2: Stems $29 -->
+        <div class="buy-card">
+          <h3 class="accent">Stems + Producers Pack</h3>
+          <div class="price">$29</div>
+          <div class="bundle-details">
+            <strong>Full stems for remix, sync, production. LCC + Screen Glow.</strong><br>
+            <ul class="details-list">
+              <li>Mastered tracks (LCC Final + Screen Glow)</li>
+              <li>12+ aligned stems: Vocals, Banjo/Guitar, Drums, Bass, Keys, FX/Atmos</li>
+              <li>Visual references (godray, crack, orb clips)</li>
+              <li>"How to use" arc sync + LRA trigger notes</li>
+              <li>High-margin for beatmakers, editors, supervisors</li>
+            </ul>
+          </div>
+          <a class="buy-btn" href="mailto:bbyars87@gmail.com?subject=Buy%20Stems%20Bundle%20%2429&amp;body=Hi%20Brandon%2C%0A%0APlease%20send%20the%20Stems%20Producers%20Pack%20%2429.%0AVenmo%20or%20PayPal%20ready.%0A%0AName%3A%20%5BYour%20Name%5D">BUY STEMS + PRODUCERS — $29 → EMAIL NOW</a>
+        </div>
+
+        <!-- Bundle 3: World $15 -->
+        <div class="buy-card">
+          <h3 class="accent">The World — Visuals + Interactive</h3>
+          <div class="price">$15</div>
+          <div class="bundle-details">
+            <strong>Full cinematic universe. Clips + playable orrery/portals.</strong><br>
+            <ul class="details-list">
+              <li>10-15 key .mov clips (LCC road, Screen Glow godrays, portals, crack hooks)</li>
+              <li>Full Multiworld Interactive HTML player + orrery (BRANDO_LCC_MULTIWORLD_ARCHIVE)</li>
+              <li>Album art variants + stills</li>
+              <li>Build-your-own-portal notes</li>
+            </ul>
+          </div>
+          <a class="buy-btn" href="mailto:bbyars87@gmail.com?subject=Buy%20World%20Visuals%20Bundle%20%2415&amp;body=Hi%20Brandon%2C%0A%0APlease%20send%20The%20World%20Visuals%20%2B%20Interactive%20%2415%20bundle.%0AVenmo%20or%20PayPal%20ready.%0A%0AName%3A%20%5BYour%20Name%5D">BUY THE WORLD — $15 → EMAIL NOW</a>
+        </div>
+      </div>
+
+      <div class="email-note">
+        <strong>EMAIL bbyars87@gmail.com</strong> with the bundle you want.<br>
+        Reply with Venmo/PayPal details. <strong>Same-day delivery</strong> of ZIP after payment confirmed. Manual fulfillment for first buyers — personal touch.
+      </div>
+
+      <p style="font-size:0.8rem; margin:12px 0 0; opacity:0.75;">Bundle any two for $38 or all three for $50 (reply with request). High LRA honesty. Direct = 100% to artist.</p>
+    </div>
+
+    <div class="section">
+      <h2>Listen Now — Newest Singles</h2>
+      <div class="links">
+        <a class="link-btn" href="https://music.apple.com/us/artist/brandowithabanjo/1895545575" target="_blank" rel="noopener">Apple Music — BrandoWithABanjo (All Tracks)</a>
+        <a class="link-btn" href="https://music.apple.com/us/album/long-way-home-from-asheville-single/6781284654" target="_blank" rel="noopener">Long Way Home from Asheville — Apple Single</a>
+        <a class="link-btn" href="https://music.amazon.com/artists/B0GYLW1D36/brandowithabanjo" target="_blank" rel="noopener">Amazon Music</a>
+        <a class="link-btn" href="https://open.spotify.com/search/BrandoWithABanjo" target="_blank" rel="noopener">Spotify — Search BrandoWithABanjo</a>
+        <a class="link-btn" href="https://www.youtube.com/@BrandoWithABanjo" target="_blank" rel="noopener">YouTube @BrandoWithABanjo</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>July 4, 2026 — Last Call Carolina Full Rollout</h2>
+      <p class="release">Title track + 60+ songs across worlds. Pre-order the bundles above for masters, stems and the full carried visual world today.</p>
+      <p>Search “Last Call Carolina BrandoWithABanjo” or “BrandoWithABanjo” on your platform.</p>
+    </div>
+
+    <div class="section">
+      <h2>Voice Commands</h2>
+      <div class="voice">
+        “Alexa, play BrandoWithABanjo”<br>
+        “Alexa, play Last Call Carolina by BrandoWithABanjo”<br>
+        “Hey Siri, play BrandoWithABanjo on Apple Music”
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Follow + Carry the Thread</h2>
+      <div class="links">
+        <a class="link-btn" href="https://x.com/BrandosBanjo" target="_blank" rel="noopener">X / Twitter @BrandosBanjo</a>
+        <a class="link-btn" href="https://www.instagram.com/brandowithabanjo/" target="_blank" rel="noopener">Instagram @brandowithabanjo</a>
+        <a class="link-btn" href="https://www.tiktok.com/@brandowithabanjo" target="_blank" rel="noopener">TikTok @brandowithabanjo</a>
+      </div>
+      <p style="margin-top:10px;font-size:0.9rem;opacity:0.85;">Crack moments. God rays on the honest parts. Orrery breathing with real LRA. Shop here for stems + the full interactive world.</p>
+    </div>
+
+    <div class="section bio">
+      <h2>About BrandoWithABanjo (Brandon Byars)</h2>
+      <p>Brandon Byars creates banjo-driven country and Americana with raw emotional honesty. Roots in North Carolina. High-dynamic-range performances (high LRA) and cinematic multiworld experiences. The carried thread between road (LCC) and night repair (Screen Glow).</p>
+    </div>
+
+    <div class="meta">
+      <p>Brandon Byars • BrandoWithABanjo • Raleigh / Garner, North Carolina</p>
+      <p><a href="https://unitedmasters.com/a/brandon-byars">UnitedMasters</a> • Direct bundles via email: <strong>bbyars87@gmail.com</strong></p>
+      <p style="margin-top:12px; font-size:0.75rem;">Bundles prepared from existing masters. Delivery same day. No user accounts needed. Revenue goes straight to the artist.</p>
+    </div>
   </div>
-
-  <h2>Bundles Ready Today</h2>
-  <div class="bundle">LCC Pre-Order Bundle - $12<br>Full tracks + notes. Email to buy.</div>
-  <div class="bundle">Stems Bundle - $29<br>Pro tools stems. Email to buy.</div>
-  <div class="bundle">World Visuals + Player - $15<br>Videos + interactive. Email to buy.</div>
-
-  <p>Email bbyars87@gmail.com with what you want. Send payment. Get files same day.</p>
-
-  <h2>Listen</h2>
-  <p><a href="https://music.apple.com/us/artist/brandowithabanjo/1895545575">Apple</a> | <a href="https://open.spotify.com/search/BrandoWithABanjo">Spotify</a></p>
-
-  <h2>Follow</h2>
-  <p>@BrandosBanjo on X | @brandowithabanjo on IG</p>
 </body>
 </html>
