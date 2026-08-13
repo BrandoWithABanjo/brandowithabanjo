@@ -33,21 +33,18 @@ Shot IDs S01 / S03 / S13 are **Mac-locked**. S02, S04–S12, S14–S16 are this 
 
 **Not started** (insufficient keepers). Timeline recipe is in `film02/CAPCUT_ASSEMBLY.md`.
 
-## Film 01 — picture
+## Film 01 — picture (updated 2026-08-13, Fable 5)
+
+**SPEND FREEZE (Brandon/CoS, 2026-08-13): no Dreamina generates for anyone until Brandon lifts it.** When it lifts, the model floor is Seedance 2.5 — 2.0 is below the bar and its F01-K jobs failed in-feed while still charging. Credits scarce (~1.8K last known); log any charge-without-clip to Mac `Documents/Codex/credits-refunds/LEDGER.md`. Film 02 is **paused**.
 
 | Module | Intent | Status | Next |
 |---|---|---|---|
-| F01-A | Layer 1 ordinary room, question + key | **NEEDED** | Generate (v02 Patch A replacement) |
-| F01-B | Nottingham 1812 mill floor | **NEEDED** | Generate |
-| F01-C | Railway 1830 | **NEEDED** | Generate |
-| F01-D | Photography 1839 | **NEEDED** | Generate |
-| F01-E | Radio 1925 | **NEEDED** | Generate |
-| F01-F | Television 1948 | **NEEDED** | Generate |
-| F01-G | Y2K midnight | **NEEDED** | Generate |
-| F01-H | MP3 / dorm / rights conflict | **NEEDED** | Generate |
-| F01-I | Generative AI + human review | **NEEDED** | Generate |
-| F01-J | Foundry close, 25 shutters, string into aperture | **NEEDED** | No wrench/valve |
-| F01-K | Carolina world establish + hold for Film 02 frame 0 | **NEEDED** | Joint seam with Film 02 S16/S01 world |
+| F01-A | Layer 1 ordinary room, question + key | **HOLD** — take on disk NOT KEEP (fake script, smeared hand, disembodied hand); file held | No second A unless Brandon says |
+| F01-B–I | Tech-arc modules | **NOT STARTED** | Frozen until A/J/K strategy resolved with keepers |
+| F01-J | Foundry close, 25 shutters, string into aperture | **REJECT** — F01-J.mp4 wrong job, portal ending, melt | Do not retake this recipe; new J strategy needs Brandon |
+| F01-K | Carolina world establish + hold for Film 02 frame 0 | **HOLD** — candidate NOT KEEP; hold the file, do not retake. Earlier 2.0 attempts failed in-feed and charged | No spend. `film01/F01K_SEEDANCE25_PACK.md` is the 2.5 runbook, parked until Brandon lifts the freeze |
+
+Cloud-side note: Dreamina is reachable from the cloud VM in a real browser but signed out with no credentials, so no cloud generate is possible regardless — confirmed 2026-08-13, no login attempted, no credits spent.
 
 ### Film 01 audio
 
@@ -56,6 +53,8 @@ Shot IDs S01 / S03 / S13 are **Mac-locked**. S02, S04–S12, S14–S16 are this 
 v01 174.8s / 30fps master remains comparison authority only.
 
 ## First Mac actions (ordered)
+
+> **Superseded 2026-08-13 by the spend freeze.** Steps that queue or regen Dreamina jobs (3's regen clause, 5, 6) are frozen until Brandon lifts it. Download/QC of already-paid jobs and the A/J/K strategy call come first.
 
 1. Unblock OS permission dialog so BrowserClaw can talk to Dreamina.
 2. Download recipe-v2 clips. Save under `film02-appalachian-son-rebuild/clips/recipe-v2/`.

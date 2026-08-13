@@ -10,10 +10,18 @@ Rule: one hard failure rejects the take. Do not salvage with zooms, speed ramps,
 
 Re-check S01_01 on Mac anyway (fps, continuous motion, no freeze, no Chi unless accurate). If it fails Pour QA, regenerate from the S01 prompt in `film02/DREAMINA_PROMPTS.md` — that is a new take, not a license to change the shot’s job.
 
+## HOLD — not keepers, but keep the files (2026-08-13)
+
+| ID | Why not keep | Rule |
+|---|---|---|
+| Film 01 **F01-A.mp4** | Fake readable script, smeared hand, disembodied hand | Hold the file. No second A unless Brandon says |
+| Film 01 **F01-K** candidate | NOT KEEP per Brandon/CoS | Hold the file. Do not retake. Spend freeze in effect |
+
 ## REJECT — do not download again, do not put on the timeline
 
 | ID | Failure | Do not retry |
 |---|---|---|
+| Film 01 **F01-J.mp4** | Wrong job, portal ending, melt | The J recipe as written; new J strategy needs Brandon |
 | Film 02 **S03** all takes | Rearview interior, mannequin driver, Ken Burns on a still ridge | Interior cabin + rearview glass + any still-zoom |
 | Film 02 **S13** all takes including medium regen | Melting / mutating banjo hands | Close or medium hero-hands on the fretboard |
 | Film 01 wrench / valve / hose match | Reads as maintenance, not Layer 2→3 | Tool-match into Carolina |

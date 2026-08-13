@@ -1,6 +1,12 @@
 # Film 01 — Dreamina / Seedance prompts
 
-Paste **STYLE** + **SHOT** + **NEGATIVES** as one prompt. One shot per generation. Duration 8–10s unless noted. Model: Seedance 2.0 1080p; use 2.5 only for F01-J and F01-K if 2.0 cannot hold the aperture.
+Paste **STYLE** + **SHOT** + **NEGATIVES** as one prompt. One shot per generation. Duration 8–10s unless noted.
+
+> **SPEND FREEZE (Brandon/CoS, 2026-08-13): no Dreamina generates from any prompt in this file until Brandon lifts it.**
+
+**Model: Seedance 2.5 · 1080p — for every Film 01 shot, once unfrozen.** (Brandon, 2026-08-13: 2.5 is the floor. The earlier "2.0 default, 2.5 for hero only" rule is dead — 2.0 output was below the bar and the F01-K 2.0 jobs failed in-feed while still charging credits. Do not submit anything at 2.0.)
+
+Credits are scarce. One careful 2.5 generate per shot; if a job errors, stop and log it in `Documents/Codex/credits-refunds/LEDGER.md` for refund — do not resubmit blind. The F01-K single-attempt runbook is in `F01K_SEEDANCE25_PACK.md`.
 
 Mute result audio in CapCut.
 
@@ -15,6 +21,8 @@ No Ken Burns, no still photo, no slideshow, no freeze frame, no morph, no portal
 ---
 
 ### F01-A — Layer 1 room + key (10s)
+
+> **HOLD (2026-08-13).** The A take on disk is NOT KEEP (fake readable script, smeared hand, disembodied hand) but the file is held. Do **not** generate a second A unless Brandon says so.
 
 Ordinary lived-in American room at night, anonymous adult seen from behind and in silhouette only, sitting at a wooden table with paper sketches of machines, speaking once then pressing one physical brass key into a worn mechanical lock on a wooden box, the camera does a slow handheld dolly-in from a wide of the whole room to the key entering the lock, practical desk lamp amber camera-right, window cyan camera-left, no computer screens, no server racks, no factory. End on a tight but stable shot of the key fully turned, a cable or string leading out of frame right.
 
@@ -70,6 +78,8 @@ Present-day physical workspace, not a sci-fi control room: printed pages, a huma
 
 ### F01-J — Foundry + string into aperture (10s) — HERO
 
+> **RECIPE REJECTED (2026-08-13).** F01-J.mp4 failed: wrong job, portal ending, melt. Do **not** retake this recipe as written. A new J strategy needs Brandon's sign-off; the prompt below is kept for reference only.
+
 Hidden industrial Foundry floor, black steel and oxidized copper, a wall of exactly 25 mechanical shutters in a 5 by 5 grid, recurring workers in work clothes (Director, Archivist, Builder, Soundkeeper, Courier) at real tasks, the Soundkeeper in medium-wide so hands are visible but not extreme close-up, tensions one correct five-string banjo string, the vibration travels left to right as a physical line into the seam of one designated shutter, that shutter opens mechanically while its black-steel and copper frame stays visible, camera dollies along the same line toward the opening. Continuous take. End inside the aperture threshold with warm Carolina daylight leaking through, frame still visible around the edges. No wrench, no valve, no hose, no portal swirl, no particles.
 
 If hands melt: retake **wider** immediately (Soundkeeper at full body, banjo smaller in frame). Do not do a hero fretboard CU.
@@ -77,6 +87,8 @@ If hands melt: retake **wider** immediately (Soundkeeper at full body, banjo sma
 ---
 
 ### F01-K — Carolina world hold (8–10s) — HERO / SEAM
+
+> **HOLD — SPEND FREEZE (2026-08-13).** The K candidate on disk is NOT KEEP: hold the file, do not retake. The 2.0 K jobs failed in-feed and still charged (log in `LEDGER.md`). If Brandon lifts the freeze, the single 2.5 attempt runs per `F01K_SEEDANCE25_PACK.md` — Seedance 2.5 only.
 
 Camera crosses the same aperture; the string line becomes a fence wire then a gravel road edge on red clay, Blue Ridge mountain light, natural depth and air, no people in the first seconds, then a distant anonymous figure far down the road (back only, tiny in frame). Slow dolly forward, no boom into sky, no drone telemetry. Hold the last 2 seconds as a near-static live plate (micro-wind in grass still moving — not a freeze). End on that plate: this is Film 02 frame 0. No boot stomp, no title, no dog, no close face.
 
