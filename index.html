@@ -20,7 +20,7 @@
   <meta property="og:image" content="https://brandowithabanjo.github.io/brandowithabanjo/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Brandon Byars: singer, songwriter, producer">
+  <meta property="og:image:alt" content="Portrait of Brandon Byars, singer, songwriter and producer">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Brandon Byars | Singer, Songwriter &amp; Producer">
   <meta name="twitter:description" content="Up-and-coming artist Brandon Byars has a lot to say. Stream the debut album, Last Call Carolina.">
@@ -54,7 +54,7 @@
         "name": "Brandon Byars",
         "alternateName": "BrandoWithABanjo",
         "url": "https://brandowithabanjo.github.io/brandowithabanjo/",
-        "image": "https://brandowithabanjo.github.io/brandowithabanjo/og-image.png",
+        "image": "https://brandowithabanjo.github.io/brandowithabanjo/brandon-byars.jpg",
         "description": "Brandon Byars is an independent singer, songwriter and producer based in Plano, Texas. He writes, sings, produces and markets his own records.",
         "jobTitle": "Singer, songwriter and producer",
         "genre": ["Country", "Singer-Songwriter"],
@@ -69,7 +69,8 @@
           "https://music.apple.com/us/artist/brandon-byars/1878846292",
           "https://open.spotify.com/artist/72Ods5KRcFT2NpqQcPUy8c",
           "https://www.youtube.com/@BrandonByarsMusic",
-          "https://www.youtube.com/channel/UCFrkgsVo8t1HWYWuJUlPwbw"
+          "https://www.youtube.com/channel/UCFrkgsVo8t1HWYWuJUlPwbw",
+          "https://x.com/BrandosBanjo"
         ],
         "album": { "@id": "https://brandowithabanjo.github.io/brandowithabanjo/#last-call-carolina" }
       },
@@ -129,6 +130,10 @@
     .roles { font-size: clamp(1.05rem, 3.2vw, 1.35rem); font-weight: 600; margin: 0 0 .5rem; }
     .lead { font-family: ui-serif, "New York", Georgia, serif; font-style: italic; font-size: clamp(1.15rem, 3.4vw, 1.45rem); color: var(--ink); margin: .2rem 0 .3rem; }
     .muted { color: var(--muted); }
+    .hero { display: flex; align-items: center; gap: 1.5rem; }
+    .hero > div { flex: 1; min-width: 0; }
+    .portrait { width: 220px; height: 220px; flex: none; border-radius: 16px; border: 1px solid var(--line); object-fit: cover; }
+    @media (max-width: 640px) { .hero { flex-direction: column-reverse; align-items: flex-start; gap: 1rem; } .portrait { width: 140px; height: 140px; } }
     .cta {
       background: linear-gradient(135deg, #c9a46e, #a67c3d);
       color: #111; padding: 1.25rem 1.1rem; border-radius: 12px; text-align: center; margin: 1.6rem 0 0;
@@ -148,10 +153,15 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="tag">Official site · Independent artist · Plano, Texas</div>
-      <h1>Brandon Byars</h1>
-      <p class="roles">Singer. Songwriter. Producer. The whole label.</p>
-      <p class="lead">Up-and-coming artist Brandon Byars has a lot to say.</p>
+      <div class="hero">
+        <div>
+          <div class="tag">Official site · Independent artist · Plano, Texas</div>
+          <h1>Brandon Byars</h1>
+          <p class="roles">Singer. Songwriter. Producer. The whole label.</p>
+          <p class="lead">Up-and-coming artist Brandon Byars has a lot to say.</p>
+        </div>
+        <img class="portrait" src="brandon-byars.jpg" width="900" height="900" alt="Portrait of Brandon Byars, singer, songwriter and producer">
+      </div>
 
       <div class="cta">
         Hear the 25-track debut album, <em>Last Call Carolina</em><br>
