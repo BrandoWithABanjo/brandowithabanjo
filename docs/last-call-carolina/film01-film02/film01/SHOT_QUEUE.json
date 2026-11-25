@@ -1,0 +1,30 @@
+{
+  "film": "01",
+  "title": "Tech Shifts prologue",
+  "audio_wav": "Documents/Codex/2026-08-12/film01-tech-intro-suno/audio/Film01_Tech_Shifts_3326a21e*.wav",
+  "duration_s_approx": 180.88,
+  "cue_map": "TAKE_PICK.md",
+  "fps": 24,
+  "model_default": "seedance-2.0-1080p",
+  "hero_maybe_2_5": ["F01-J", "F01-K"],
+  "generate_order": [
+    "F01-A",
+    "F01-J",
+    "F01-K",
+    "F01-B",
+    "F01-C",
+    "F01-D",
+    "F01-E",
+    "F01-F",
+    "F01-G",
+    "F01-H",
+    "F01-I"
+  ],
+  "forbidden": [
+    "wrench_valve_hose_match",
+    "chi",
+    "personal_f150_tesla_house",
+    "ken_burns",
+    "title_cards"
+  ]
+}

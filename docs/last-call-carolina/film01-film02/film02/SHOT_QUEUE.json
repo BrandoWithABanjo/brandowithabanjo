@@ -1,0 +1,53 @@
+{
+  "film": "02",
+  "title": "Appalachian Son",
+  "audio_wav": "Documents/Codex/2026-08-12/film02-appalachian-son-rebuild/audio/Appalachian_Son_APPLE_MUSIC_LENGTH_172s.wav",
+  "duration_s": 172.091,
+  "fps": 24,
+  "model_default": "seedance-2.0-1080p",
+  "keep": [
+    {
+      "id": "S01",
+      "file": "clips/S01_01.mp4",
+      "action": "frame-verify only; do not regen unless Pour QA fail"
+    }
+  ],
+  "reject_do_not_retry": [
+    {
+      "id": "S03",
+      "class": "interior rearview / mannequin / Ken Burns"
+    },
+    {
+      "id": "S13",
+      "class": "banjo close or medium hero hands / melting anatomy"
+    }
+  ],
+  "queued_download_first": [
+    {
+      "id": "S03",
+      "recipe": "v2-exterior-truck",
+      "prompt_file": "docs/last-call-carolina/film01-film02/film02/RECIPE_V2.md"
+    },
+    {
+      "id": "S13",
+      "recipe": "v2-wider-banjo",
+      "prompt_file": "docs/last-call-carolina/film01-film02/film02/RECIPE_V2.md"
+    }
+  ],
+  "generate_after_qc": [
+    "S02",
+    "S04",
+    "S07",
+    "S08",
+    "S14",
+    "S15",
+    "S16",
+    "S05",
+    "S06",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "omit": ["chi", "chye", "generated_brandon_face", "ken_burns"]
+}
